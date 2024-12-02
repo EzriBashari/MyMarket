@@ -51,7 +51,7 @@ async function restorePassword(req, res, password) {
       subject: "passwors reset",
       text: password,
     };
-
+    console.log("this is the password" + password);
     transporter.sendMail(mailOptions, function (error, info) {
       if (error) {
         console.log(error);

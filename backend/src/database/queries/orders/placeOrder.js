@@ -1,10 +1,46 @@
 const db = require("../../dbConnection");
-
+// const express = require("express");
+// const app = express();
+// const paypal = require("../payment/paypal");
+// console.log("out of place order");
 async function placeOrder(req, res) {
+  // console.log("in place order");
+
   const { userID, checkedItems } = req.body;
+  // app.post("/pay", async (req, res) => {
+  //   console.log("in pay");
+
+  //   try {
+  //     const url = await paypal.createOrder();
+
+  //     res.redirect(url);
+  //   } catch (error) {
+  //     res.send("Error: " + error);
+  //   }
+  // });
+
+  // app.get("/complete-order", async (req, res) => {
+  //   console.log("in complete order");
+
+  //   try {
+  //     await paypal.capturePayment(req.query.token);
+
+  //     res.send("Course purchased successfully");
+  //   } catch (error) {
+  //     res.send("Error: " + error);
+  //   }
+  // });
+
+  // app.get("/cancel-order", (req, res) => {
+  //   console.log("in cancel order");
+
+  //   res.redirect("/");
+  // });
 
   try {
     // Calculate the total price based on the checked items
+    // console.log("in my place order");
+
     const totalPrice = checkedItems.reduce(
       (accumulator, item) => accumulator + item.cartAmount * item.price,
       0
