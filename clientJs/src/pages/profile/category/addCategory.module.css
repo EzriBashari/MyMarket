@@ -1,0 +1,30 @@
+.main {
+  border: 1px solid gray;
+  background-color: rgba(232, 232, 232, 0.488);
+ margin: auto auto;
+ border-radius: 2rem;
+ /* margin: 0 auto; */
+  padding: 2rem;
+  /* margin-left: 10rem; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 25rem;
+  /* align-items: center; */
+}
+.category {
+  border-bottom: 1px solid rgb(151, 151, 151);
+  display: flex;
+  justify-content: space-between;
+  width: 18rem;
+
+}
+.wrapper {
+   margin: 0 auto;
+  width: 20rem;
+  max-height: 200px; /* Set the maximum height you desire for the scrollable area */
+  overflow-y: auto; /* Use "auto" or "scroll" to add a vertical scrollbar when necessary */
+}
+.categoryInput{
+  margin-top: 1rem;
+}

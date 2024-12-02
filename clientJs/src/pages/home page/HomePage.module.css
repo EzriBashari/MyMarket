@@ -1,0 +1,71 @@
+/* Common styles for all screen sizes */
+.main {
+  padding: 2px;
+  margin: 3px;
+  background-color: rgba(227, 227, 227, 0.438);
+}
+
+.inputGroup {
+  margin-left: 3rem;
+  display: flex;
+  align-items: center;
+}
+.error{
+  display: block;
+  color: red;
+  margin-left: 3rem;
+  max-width: 300px;
+  
+}
+.form {
+  /* border: 1px solid salmon; */
+  display: flex;
+}
+
+.input {
+  margin-top: 0.5rem;
+  border-radius: 1%;
+  width: 30rem;
+  height: 3.5rem;
+  max-width: 300px;
+  max-height: 30px;
+  margin-right: 1rem;
+}
+
+.border {
+  border: 0.0px solid blue;
+}
+
+.flexWrap {
+  flex-wrap: wrap;
+}
+
+.justifyContent {
+  justify-content: space-between;
+}
+
+.alignItems {
+  align-items: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+  margin: auto;
+  padding: auto; 
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  /* Adjust .inputGroup margin for smaller screens */
+  .inputGroup {
+    margin-left: 1rem;
+  }
+
+  /* Reduce .input width for smaller screens */
+  .input {
+    width: 100%;
+    max-width: none;
+  }
+}

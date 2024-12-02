@@ -1,0 +1,74 @@
+.border {
+  /* border: 0.01px solid; */
+}
+
+.container {
+  background-color: rgb(255, 255, 255);
+
+  padding: 1.5rem;
+  margin: 1.2rem;
+    /* max-height: 350px; */
+    border-radius: 20px;
+    
+    position: relative;
+    max-height: 320px;
+    overflow: hidden;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.description{
+  overflow: hidden;
+  max-height:3rem ;
+}
+.h3{
+  overflow: hidden;
+  max-height:2.5rem ;
+}
+
+:hover.container {
+  background-color: rgba(253, 255, 232, 0.749);
+  /* padding: 1rem; */
+  
+ 
+}
+
+
+.imageContainer {
+  /* border: 0.01px solid; */
+  background-color: rgba(255, 255, 255);
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 150px;
+  margin: auto;
+  padding: auto;
+  max-height: 200px;
+  max-width: 100%;
+  overflow: hidden;
+  
+}
+
+.image {
+  border-radius: 8px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.open {
+  /* Define the styles for the opened product */
+  background-color: aliceblue;
+  border: 50px solid rgb(228, 223, 222);
+  width: 100vh;
+  height: 100px;
+  
+  position: absolute;
+  right: 50rem;
+  bottom: 50%;
+}
+
+
+.icon {
+  margin: 2px;
+}

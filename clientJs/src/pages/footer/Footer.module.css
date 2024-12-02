@@ -1,0 +1,18 @@
+.footer{
+  color: aliceblue;
+  height: 3rem;
+  text-align: center;
+  margin-top: auto;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #f0f0f0; */
+  padding: 20px;
+  text-align: center;
+}
+
+.p{
+  color: aliceblue;
+  margin-top: 1rem;
+}

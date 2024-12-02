@@ -1,0 +1,25 @@
+/* App.module.css */
+
+/* No changes needed for the .App class */
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the body takes up at least the full viewport height */
+}
+
+.body {
+  flex: 1; /* Allow the body to grow and push the footer to the bottom */
+}
+
+.footer {
+  /* Your footer styles here */
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}

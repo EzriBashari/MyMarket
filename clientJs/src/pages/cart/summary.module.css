@@ -1,0 +1,26 @@
+.container {
+  border: 0.1px dashed rgba(0, 0, 0, 0.251);
+  font-weight: 500;
+  padding: 1rem;
+  max-width: 700px;
+  margin-top: 4rem;
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+.paypalContainer{
+  margin-top: 1rem;
+  width: 15rem;
+}
+
+/* Responsive Styles */
+
+@media screen and (max-width: 768px) {
+  .container {
+    border: none;
+    border-top: 1px solid black;
+    max-width: 600px;
+    margin: auto auto;
+    /* margin-inline-end: 5rem; */
+    /* -webkit-margin-end: 10rem; */
+  }
+}
